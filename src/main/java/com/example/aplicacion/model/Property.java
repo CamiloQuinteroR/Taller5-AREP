@@ -45,7 +45,7 @@ public class Property {
         this.description = description;
     }
 
-    // getters y setters
+
     public Long getId() {
         return id;
     }

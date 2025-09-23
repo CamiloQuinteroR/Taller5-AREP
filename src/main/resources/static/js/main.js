@@ -1,7 +1,7 @@
 const form = document.getElementById('propertyForm');
 const list = document.getElementById('propertyList');
 
-// Crear nueva propiedad
+
 form.addEventListener('submit', async (e) => {
     e.preventDefault();
 
@@ -22,7 +22,7 @@ form.addEventListener('submit', async (e) => {
     loadProperties();
 });
 
-// Cargar todas las propiedades
+
 async function loadProperties() {
     const res = await fetch('/api/properties');
     const properties = await res.json();
@@ -52,7 +52,7 @@ async function loadProperties() {
     });
 }
 
-// Función para editar propiedad
+
 function editProperty(property) {
     const address = prompt("Address:", property.address);
     const price = prompt("Price:", property.price);
