@@ -58,8 +58,12 @@ De esta forma, cada capa tiene una responsabilidad clara, y el sistema mantiene 
 
 ### Diagrama de clases
 
+<img width="1126" height="448" alt="image" src="https://github.com/user-attachments/assets/81669835-296d-4891-b39e-4e3133a6452c" />
+
 
 ### Diagrama de infraestructura
+
+<img width="579" height="307" alt="image" src="https://github.com/user-attachments/assets/dc404958-3fda-410e-a20f-d3252ef3d77d" />
 
 
 ---
